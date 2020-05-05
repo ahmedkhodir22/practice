@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    display: table-cell;
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    vertical-align: middle;
+}
+nav >ul
+{
+    text-align: center;
+}
+
+nav >ul >li >a:hover
+{
+    color: rgb(0, 26, 255);
+}
+
+nav >ul >li
+{
+    list-style: none;
+    display: table-cell;
+    height: 100%;
+    
+}
+
+nav >ul >li >a
+{   
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 50px;
+}
+
+footer li
+{
+    color:  rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+}
+.wrapper
+{
+    color:  black;
+    font-size: 20px;
+}
+
+body
+{
+    background: url('../img/car.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:   black;
+}
+fieldset p
+{
+    color: black;
+}
+fieldset legend
+{
+    color: black;
+    font-size: 30px;
+}
+.contactinfo
+{
+    color:  black;
+}
+.pick
+{
+    color: black;
+    font-size: 30px;
+}
+h1
+{
+    color: black;
+    font-size: 100px;
+}
+.sub >input
+{
+    font-size: large;
+    height: 30px;
+    width: 100px;
+}

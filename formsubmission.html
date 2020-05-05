@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formsubmission</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="formsubmission.html">Form Submission</a></li>
+          </ul>
+        </nav>
+    </header>
+    <br>
+    <form method="POST"> 
+      <fieldset>
+        <legend>Please Fill In The Information Below</legend><br>
+        <p>
+          <label for="name"> Name*</label>
+          <input placeholder="enter your name" type="text" id="name" name="name" required>
+        </p>
+        <br>
+        <p>
+          <label for="adderss"> Adderss*</label>
+          <input placeholder="enter your adderss" type="text" id="adderss" name="adderss" required>
+        </p>
+        <br>
+        <p>
+          <label for= "phone"> Phone*</label>
+          <input placeholder= "enter the phone#" type= "text" id= "phone" name= "phone" required>
+        </p>
+        <br>
+        <p>
+          <label for="zip"> Zip Code*</label>
+          <input placeholder="enter your zip" type="text" id="zip" name="zip" required>
+        </p>
+        <br>
+        <p>
+          <label for="email"> Email*</label>
+          <input placeholder="enter your email" type="text" id="email" name="email" required>
+        </p><br>
+      </fieldset>
+      <br>
+        <fieldset>
+        <legend>Car search</legend>
+          <p>
+            <label for="make"> Make*</label>
+            <input placeholder="enter the make" type="text" id="make" name="make" required>
+          </p>
+          <br>
+          <p>
+            <label for= "model"> Model*</label>
+            <input placeholder= "enter the model" type= "text" id= "model" name= "model" required>
+        </p>
+        <br>
+        <label for="year"> Year*</label>
+            <select id="year" name="year" required>
+                <option value="">-Select the year-</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+            </select>
+            <br><br>
+            <label for="carinfo">What are you looking for your car purchase</label><br>
+            <textarea name="carinfo" id="carinfo"></textarea><br>
+        <br><br>
+        <p>Car features</p><br>
+        <p><input type="checkbox" name="chair" value="leather"> Leather</p>
+        <p><input type="checkbox" name="chair" value="heated"> Heated</p>
+        <p><input type="checkbox" name="chair" value="color"> Color</p>
+        <p><input type="checkbox" name="sports car" value="sprots"> Sports</p>
+        <P><input type="checkbox" name="not sports car" value="not sports"> Not Sports</P><br>
+        <div>
+            <input type="submit" value=" Submit Your order">
+            <input type="reset" value="Reset infomation">
+        </div><br>
+        </fieldset>
+      </form>
+
+</body>
+</html>
